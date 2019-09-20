@@ -26,7 +26,7 @@ Las rutas son las siguientes:
 | /api/v1/books                     | GET    | Busca un listado de libros, ordenados por novedad | { "data": [{}], "totalDocs": 1, "limit": 1, "page": 1, "totalPages": 1 } |
 | /api/v1/books                     | POST   | Publica un libro                                  | { "id": "123", "message": "msg" }                                        |
 | /api/v1/books/:id/increment-score | POST   | Incrementa en **1** la calificación del libro     | { "message": "msg" }                                                     |
-| /api/v1/books/:id/decrement-score | POST   | Disminuye en **-1** la calificación del libro     | { "message" :"msg" }                                                     |
+| /api/v1/books/:id/decrement-score | POST   | Disminuye en **-1** la calificación del libro     | { "message": "msg" }                                                     |
 
 ##### Sobre las rutas
 
