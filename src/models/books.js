@@ -57,7 +57,7 @@ bookSchema.method({
 			throw error;
 		}
 	},
-	// Decremente uno a la calificacion del libro
+	// Decrementa uno a la calificacion del libro
 	decrementScore: async function() {
 		try {
 			this.calificacion--;
