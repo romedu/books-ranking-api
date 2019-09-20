@@ -57,7 +57,7 @@ const server = http.createServer(async (req, res) => {
 
 // Se inicializa el servidor para que este disponible en el puerto especificado
 server.listen(PORT, () => {
-	console.log("Server is up in", "http://localhost:3000");
+	console.log("Server is up in", `http://localhost:${PORT}`);
 });
 
 module.exports = server;
