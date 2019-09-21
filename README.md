@@ -10,9 +10,6 @@ Este es un simple api escrito en Node.js, usando MongoDB como base de datos. En 
 4. Para correr las pruebas se debe correr el comando `npm test`, dentro de la ruta del proyecto.
 
 ##### Notas:
-
--  En el archivo .env, están definidas las variables de entorno que se usan en el proyecto.
--  Para facilitar las pruebas, la base de datos está alojada en las nubes.
 -  Para correr las pruebas es necesario que el servidor no este inicializado.
 
 ### Documentación
